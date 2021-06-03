@@ -11,6 +11,18 @@ To use  different baudrate edit the Launch Target to looks like:
 
 ![image](https://user-images.githubusercontent.com/15612908/120640366-b233ff00-c472-11eb-9784-c155048cf8db.png)
 ##### 2. Fill the Main tab as below:
+Location:
+
+  `${system_path:python}`
+
+Working Directory:
+
+`${workspace_loc:/esp32_lvgl}`
+
+Arguments:
+
+`C:\Dev\esp32-idf\esp-idf-v4.2\tools\idf.py  -p COM5 -b 921600 flash`
+
 ![image](https://user-images.githubusercontent.com/15612908/120640853-3edebd00-c473-11eb-9d38-b24ba4ad3e72.png)
 
 The demo application is the `lv_demo_widgets` project from the [lv_examples](https://github.com/lvgl/lv_examples) repository.
