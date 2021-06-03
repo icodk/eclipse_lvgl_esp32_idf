@@ -1,7 +1,7 @@
 ### ESP-IDF Eclipse Plugin project using LVGL with TFT 2.8" 320X240 with Touch display
 
 #### Clone this project with:
-`git clone  --recurse-submodules    https://github.com/icodk/eclipse_lvgl_esp32_idf.git`
+`git clone https://github.com/icodk/eclipse_lvgl_esp32_idf.git`
 
 #### Flasher speed
 Flsher speed is set to 460800 by the plugin.
