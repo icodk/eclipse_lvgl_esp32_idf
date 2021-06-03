@@ -1,4 +1,6 @@
 ### ESP-IDF Eclipse Plugin project using LVGL with TFT 2.8" 320X240 with Touch display
+Based on lvgl_port_esp32
+`https://github.com/lvgl/lv_port_esp32.git`
 
 #### Clone this project with:
 `git clone https://github.com/icodk/eclipse_lvgl_esp32_idf.git`
@@ -27,7 +29,7 @@ Arguments:
 
 The demo application is the `lv_demo_widgets` project from the [lv_examples](https://github.com/lvgl/lv_examples) repository.
 #### Versions
-- Version of eclipse idf plugin: ### ESP-IDF Eclipse Plugin v2.1.0 (Build: 2.1.0.202104161244)
+- Version of eclipse idf plugin:  ESP-IDF Eclipse Plugin 2.1.0.202104161244
 - Version of ESP-IDF required 4.2.
 - Version of LVGL used: 7.9.
 - Version of lv_examples used: 7.9.
